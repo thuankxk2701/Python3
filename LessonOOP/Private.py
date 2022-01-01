@@ -43,7 +43,9 @@ class Sub(Super):
 
     # constructor
     def __init__(self, var1, var2, var3):
-        Super.__init__(self, var1, var2, var3)
+        super().__init__(var1, var2, var3);
+        # or Super.__init__(var1, var2, var3);        
+        
 
     # public member function
     def accessProtectedMembers(self):

@@ -5,4 +5,5 @@ class Student(object):
         return 'Student object (name:%s)'% self.name;
    # __repr__=__str__;
    # Or __str__=__repr__;
-print(Student('John'))
+s=Student('John')
+print(s)
